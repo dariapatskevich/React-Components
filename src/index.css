@@ -1,0 +1,196 @@
+/*facebookCard*/
+
+.facebookCard {
+  display: flex;
+  width: 510px;
+  height: 155px;
+  font-size: 16px;
+  border: 1px solid rgba(51, 51, 51, 0.329);
+}
+.userAvatar {
+  height: 100px;
+  width: 90px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.cardTitle {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+.user-info {
+  color: blue;
+}
+.user-uni {
+  padding-left: 10px;
+  color: rgb(116, 109, 109);
+}
+.FacebookBtn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: blue;
+}
+.facebook-date {
+  color: rgb(116, 109, 109);
+}
+
+/*onliner*/
+.onliner-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+  height: 300px;
+  margin-top: 15px;
+}
+
+.onliner-card__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.onliner-card__theme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 30px;
+  margin: 20px;
+  background-color: rgb(253, 253, 0);
+}
+
+.onliner-card__theme-info {
+  text-align: center;
+  font-weight: 600;
+}
+
+.onliner-card__comments {
+  width: 60px;
+  height: 55px;
+  margin: 20px;
+  border: 1px solid rgb(253, 253, 0);
+  border-radius: 7%;
+  background-color: rgba(65, 65, 65, 0.884);
+}
+
+.onliner-card__comments-info {
+  color: rgb(253, 253, 0);
+}
+
+.onliner-card__main {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.onliner-card__main-description {
+  width: 460px;
+  font-size: 25px;
+  text-align: left;
+  color: aliceblue;
+}
+/*RABOTA.BY*/
+.RabotaBy {
+  height: 225px;
+  width: 450px;
+
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: rgb(252, 252, 252);
+  border: 1px solid rgba(177, 177, 177, 0.226);
+  border-radius: 7px;
+}
+.RabotaBy__header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  color: #1e88e5;
+}
+.RabotaBy__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+.RabotaBy__body-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+
+  margin-bottom: 15px;
+  padding-left: 15px;
+  color: #333;
+}
+
+.RabotaBy__body-main {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.RabotaByBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+.submit-btn {
+  width: 120px;
+  height: 30px;
+  border: 0;
+  font-weight: 500;
+  color: aliceblue;
+  background-color: rgb(5, 155, 255);
+  text-transform: uppercase;
+}
+.date {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+/*TUMBLR*/
+.TumblrCard {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 400px;
+  font-weight: bold;
+  border: 1px solid rgba(51, 51, 51, 0.329);
+  padding: 10px;
+  font-size: 16px;
+  color: #222;
+}
+.TumblrCard-buttons {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.btn-info {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.btn-main {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.ask,
+.home,
+.archieve,
+.theme {
+  width: 150px;
+  height: 40px;
+  border: 0;
+  padding: 10px 24px;
+  border-radius: 10%;
+  font-weight: 500;
+  background-color: #f7e1f3;
+  margin-top: 20px;
+}

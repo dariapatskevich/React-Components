@@ -1,0 +1,1 @@
+export { TumblrCard} from "./TumblrCard"
